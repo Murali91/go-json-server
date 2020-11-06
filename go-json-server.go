@@ -139,6 +139,7 @@ func response(w http.ResponseWriter, r *http.Request) {
 
 	for _, ep := range api.Endpoints {
 		if r.URL.Path == ep.Path && r.Method == ep.Method {
+			fmt.Println("debug statement")
 			fmt.Println("method:", r.Method)
 			fmt.Println("path:", r.URL.Path)
 			w.Header().Set(HeaderContentType, MIMETextPlainCharsetUTF8)
