@@ -1,4 +1,4 @@
-module github.com/tkc/go-json-server
+module github.com/Murali91/go-json-server
 
 go 1.13
 
