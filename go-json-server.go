@@ -10,7 +10,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tkc/go-json-server/src/logger"
+	"go-json-server/src/logger"
 )
 
 const (
